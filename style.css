@@ -1,0 +1,44 @@
+body {
+	background: ur1 (PICTURE.jpg);
+}
+table {
+	font-family: inherit;
+	border-collapse: collapse;
+	width: 50%
+}
+th,td {
+	border: 1px solid #000000;
+	text-align: left;
+	padding: 5px
+}
+日tr:nth-child(odd) {
+	background-color:#DFC0CC
+}
+div > p {
+	font-family: 'initial';
+	text-align: justify;
+	margin: 10px 250px 10px 250px
+}
+hl {font-family: unset;
+	color: #800080;
+	text-align: center;
+}
+h2 {font-family: sans-serif;
+	color: #4D4D4D;
+	text-align:center;
+}
+h3{font-family: sans-serif;
+	color: 000000;
+	text-align: center;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.sticky{
+	position: sticky;
+	top: 0;
+	background-color: #DFC0CC
+}
